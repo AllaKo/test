@@ -76,7 +76,7 @@ img { border: 1px dashed black; }
 - http://jsbin.com/
 - http://jsfiddle.net/
 - http://codepen.io/
-- На гитхабе можно использовать github pages: http://pages.github.com/ (англ.)
+- На гитхабе можно использовать github pages: http://pages.github.com/ (англ.) если тебе надо выложить не одиночный файл, а страницу со стилями, скриптами, картинками
 
 ## У меня проблемы с кодировкой
 
