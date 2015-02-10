@@ -75,6 +75,7 @@ img { border: 1px dashed black; }
 
 - http://jsbin.com/
 - http://jsfiddle.net/
+- http://codepen.io/
 - На гитхабе можно использовать github pages: http://pages.github.com/ (англ.)
 
 ## У меня проблемы с кодировкой
