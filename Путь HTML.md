@@ -99,17 +99,17 @@ img { border: 1px dashed black; }
 
 ![1](http://i.imgur.com/Zav7asd.png)
 
-- подсказка: в этом задании нельзя использовать свойства `position`, `float` или `display` (почему? потому, что без них проще).
-- чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font`, `line-height`, `font-weight`, `font-style` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
+- в этом задании нельзя использовать свойства `position`, `float` или `display` (почему? потому, что без них проще).
+- подсказка: чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font`, `line-height`, `font-weight`, `font-style` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
 - подсказка: http://softwaremaniacs.org/blog/2005/08/27/css-layout-flow/
-- также полезно будет почитать про единицы измерения в CSS: http://htmlbook.ru/content/edinitsy-izmereniya
+- подсказка: полезно будет почитать про единицы измерения в CSS: http://htmlbook.ru/content/edinitsy-izmereniya
 
 ### Задание 2
 
 ![2](http://i.imgur.com/WQ0AlXl.png)
 
 - подсказка: в этом задании нельзя использовать свойства `poistion`, `float`, `display` или `width`.
-- чтобы решить это задание, тебе надо изучить CSS-свойства `min-width`, `max-width`, `min-height`, `max-height`
+- подсказка: тебе надо изучить CSS-свойства `min-width`, `max-width`, `min-height`, `max-height`
 
 ### Задание 3
 
@@ -127,7 +127,9 @@ img { border: 1px dashed black; }
 
 - ширина и высота желтых блоков определяется заключенным в них текстом (то есть не задана жестко). Мы должны иметь возможность поменять числа или добавить еще несколько строчек, не меняя css. У желтых блоков есть поля размером 10px. У синего блока поля размером 10px.
 - для переноса строк можно использовать `<br>`
-- здесь нельзя использовать свойство `position` и `float` (потому что блоки с float всегда выравниваются по верхнему краю)
+- здесь нельзя использовать свойство `position` и `float` (потому что блоки с `float` всегда выравниваются по верхнему краю, а позиционированные блоки не выстраиваются друг за другом)
+- подсказка: изучи свойства `display` и `vertical-align` и почитай статьи http://htmlbook.ru/samlayout/blochnaya-verstka/strochnye-elementy и http://htmlbook.ru/samlayout/blochnaya-verstka/strochno-blochnye-elementy
+- подсказка: свойство `vertical-align` работает только в 2 случаях: внутри ячейки таблицы и для выравнивания элементов с `display: inline` или `display: inline-block` в строке. В остальных случаях оно не действует.
 - если тебе никак не удается добиться, чтобы расстояние между блоками по горизонтали было ровно 10px, прочти статью: http://css-live.ru/articles/zagadochnye-otstupy-mezhdu-inlajn-blokami.html
 
 ### Задание 5
