@@ -100,7 +100,7 @@ img { border: 1px dashed black; }
 ![1](http://i.imgur.com/Zav7asd.png)
 
 - в этом задании нельзя использовать свойства `position`, `float` или `display` (почему? потому, что без них проще).
-- подсказка: чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font`, `line-height`, `font-weight`, `font-style` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
+- подсказка: чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font`, `line-height`, `font-weight`, `font-style` и боксовую модель: http://htmlbook.ru/samlayout/blochnaya-verstka/blochnaya-model
 - подсказка: http://softwaremaniacs.org/blog/2005/08/27/css-layout-flow/
 - подсказка: полезно будет почитать про единицы измерения в CSS: http://htmlbook.ru/content/edinitsy-izmereniya
 
@@ -136,15 +136,18 @@ img { border: 1px dashed black; }
 
 ![5](http://i.imgur.com/CDZGEMa.png)
 
-Подсказка: не забудь добавить padding, чтобы цветная плашка была чуть больше чем текст.
+- подсказка: не забудь добавить padding, чтобы цветная плашка была чуть больше чем текст.
+- подсказка: тебе может помочь статья (учти, она сложная) http://css-live.ru/css/vvedenie-v-inlajnovyj-kontekst-formatirovaniya-ikf-osnovnye-ponyatiya-2-ya-publikaciya-cikla-tajny-css2-1.html
 
 ### Задание 6
 
 ![6](http://i.imgur.com/2MGgW1k.png)
 
+- ни в коем случае не используй тут свойство `overflow` - оно имеет побочные эффекты
 - подсказка: для верстки меню слева надо использовать теги `<ul>`, `<li>`, `<a>` и по желанию `<nav>`. Для статьи справа можно использовать `<atricle>`
 - подсказка: если удалить весь текст справа или все пункты меню, верстка не должна ломаться. Если добавить несколько пунктов меню или абзацев текста, тоже.
 - подсказка: шрифт — Trebuchet MS, не забудь что он пишется в кавычках в CSS
+- подсказка: тебе надо изучить свойства `float` и `clear` и почитать статью http://softwaremaniacs.org/blog/2005/12/01/css-layout-float/
 
 ### Задание 7
 
