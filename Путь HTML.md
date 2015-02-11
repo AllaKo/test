@@ -100,14 +100,16 @@ img { border: 1px dashed black; }
 ![1](http://i.imgur.com/Zav7asd.png)
 
 - подсказка: в этом задании нельзя использовать свойства `position`, `float` или `display` (почему? потому, что без них проще).
+- чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font`, `line-height`, `font-weight`, `font-style` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
 - подсказка: http://softwaremaniacs.org/blog/2005/08/27/css-layout-flow/
-- чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
+- также полезно будет почитать про единицы измерения в CSS: http://htmlbook.ru/content/edinitsy-izmereniya
 
 ### Задание 2
 
 ![2](http://i.imgur.com/WQ0AlXl.png)
 
-Подсказка: в этом задании нельзя использовать свойства `poistion`, `float`, `display` или `width`.
+- подсказка: в этом задании нельзя использовать свойства `poistion`, `float`, `display` или `width`.
+- чтобы решить это задание, тебе надо изучить CSS-свойства `min-width`, `max-width`, `min-height`, `max-height`
 
 ### Задание 3
 
@@ -115,8 +117,9 @@ img { border: 1px dashed black; }
 
 - из тегов можно использовать только `<em>`
 - подсказка: вот таблица с кодами юникодных символов: http://unicode-table.com/ru/ , сердечко ищется поиском по слову «heart», стрелочка по слову «arrow».
-- подсказка: символы `<`, `>`, `&` надо записывать с использованием html entity (HTML-мнемоник).
+- подсказка: символы `<`, `>`, `&` в HTML надо записывать с использованием html entity (HTML-мнемоник).
 - подсказка: шрифт — Times New Roman
+- подсказка: для решения этой задачи надо почитать про HTML мнемоники (html entities): http://htmlbook.ru/samhtml/tekst/spetssimvoly
 
 ### Задание 4
 
