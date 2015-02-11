@@ -101,6 +101,7 @@ img { border: 1px dashed black; }
 
 - подсказка: в этом задании нельзя использовать свойства `position`, `float` или `display` (почему? потому, что без них проще).
 - подсказка: http://softwaremaniacs.org/blog/2005/08/27/css-layout-flow/
+- чтобы решить это задание, необходимо сначала изучить такие свойства CSS: `width`, `height`, `margin`, `padding`, `border`, `text-align`, `background-color`, `color`, `font` и боксовую модель: http://softwaremaniacs.org/blog/2005/07/08/css-boxes/ (информация про IE5/6 устарела, не читай)
 
 ### Задание 2
 
